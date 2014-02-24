@@ -25,7 +25,7 @@ public class UniversalImageLoadTool {
 		.showImageOnFail(default_pic)
 		.cacheInMemory(true)
 		.cacheOnDisc(true)
-		.bitmapConfig(Bitmap.Config.RGB_565)
+		.bitmapConfig(Bitmap.Config.ARGB_8888)
 		.displayer(new SimpleBitmapDisplayer())
 		.build();
 

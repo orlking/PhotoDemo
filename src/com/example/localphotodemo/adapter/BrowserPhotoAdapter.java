@@ -44,7 +44,6 @@ public class BrowserPhotoAdapter extends PagerAdapter {
 	public View instantiateItem(ViewGroup container, int position) {
 		PhotoView photoView = new PhotoView(container.getContext());
 
-		//photoView.setBitmap(mImages.get(position % mImages.size()).getAbsolutePath());
 		container.addView(photoView, LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
 		final PhotoInfo photoInfo = mImages.get(position % mImages.size());
 		if (photoInfo != null) {
